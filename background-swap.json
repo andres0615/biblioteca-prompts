@@ -1,0 +1,36 @@
+{
+  "objective": "Cambiar el entorno de la persona en la imagen manteniendo al sujeto prácticamente intacto.",
+  "source_image": "la imagen de entrada en la que aparece la persona",
+  "reference_image": "la primera imagen (referencia del estudio de grabación)",
+  "subject": {
+    "type": "persona",
+    "treatment": "mantener al sujeto prácticamente intacto"
+  },
+  "environment": {
+    "action": "cambiar",
+    "new_environment": "estudio de grabación",
+    "reference": "como el de la primera imagen"
+  },
+  "spatial_correction": {
+    "horizon_alignment": {
+      "what": "La posición vertical de la persona.",
+      "how": "Encontrar dónde se cruzan las líneas de fuga del fondo (nivel de los ojos/cámara) y colocar los ojos del sujeto justo sobre esa línea, a menos que la persona esté sentada, agachada o en un nivel diferente del suelo."
+    },
+    "scale_adjustment": {
+      "what": "El tamaño del sujeto en función de su profundidad en la escena.",
+      "how": "Tomar como referencia objetos del entorno con altura conocida (una puerta, una silla, el capó de un auto). Si la persona está al lado de una puerta de 2 metros, debe medir proporcionalmente a esa altura según la distancia."
+    },
+    "angle_3d": {
+      "what": "Si la persona fue tomada ligeramente desde abajo y el fondo desde arriba, o si el cuerpo está ligeramente inclinado.",
+      "how": "Usar herramientas de deformación de perspectiva (Perspective Warp o Free Transform/Distort). Ajustar la inclinación de los pies y los hombros para que coincida con el plano del suelo y las paredes del fondo."
+    }
+  },
+  "constraints": [
+    "Cambiar únicamente el entorno de la persona.",
+    "El sujeto debe mantenerse prácticamente intacto."
+  ],
+  "output": {
+    "type": "imagen",
+    "format": "imagen editada"
+  }
+}

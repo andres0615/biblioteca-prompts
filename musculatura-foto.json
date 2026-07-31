@@ -1,0 +1,16 @@
+{
+    "objective": "Hacer que el sujeto de esta imagen se vea más musculoso en el tren superior",
+    "subject": {
+        "type": "persona",
+        "target_area": "tren superior",
+        "intensity": "moderado"
+    },
+    "reference_image": "la primera imagen de referencia (dibujo) proporcionada previamente por el usuario",
+    "constraints": [
+        "Conservar la ropa original del sujeto, sin cambios."
+    ],
+    "output": {
+        "type": "imagen",
+        "format": "imagen editada"
+    }
+}

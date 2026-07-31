@@ -1,0 +1,2 @@
+- haz que el sujeto de esta foto se vea mas musculoso, como en la primera imagen
+- conserva la ropa original del sujeto

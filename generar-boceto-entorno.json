@@ -1,0 +1,19 @@
+{
+  "objective": "Generar un boceto.",
+  "style": {
+    "art_style": "dibujo a lápiz",
+    "render_type": "boceto"
+  },
+  "environment": {
+    "type": "entorno",
+    "description": "el entorno (fondo, decorado, objetos)",
+    "style": "dibujado a lápiz"
+  },
+  "constraints": [
+    "La ilustración debe parecer un dibujo a lápiz."
+  ],
+  "output": {
+    "type": "imagen",
+    "format": "ilustración"
+  }
+}

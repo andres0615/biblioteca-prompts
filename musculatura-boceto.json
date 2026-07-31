@@ -1,0 +1,12 @@
+{
+  "objective": "Hacer que el sujeto de la imagen se vea más atlético en el tren superior, sin exagerar.",
+  "subject": {
+    "type": "persona",
+    "target_area": "tren superior",
+    "intensity": "moderado"
+  },
+  "output": {
+    "type": "imagen",
+    "format": "imagen editada"
+  }
+}

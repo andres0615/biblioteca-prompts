@@ -1,0 +1,24 @@
+{
+  "objective": "Generar un boceto.",
+  "style": {
+    "art_style": "dibujo a lápiz",
+    "render_type": "boceto"
+  },
+  "subject": {
+    "type": "persona",
+    "appearance": "boceto de una persona, boceto de estructura pura, utilizando líneas guía, esferas para las articulaciones y formas geométricas básicas para definir la pose"
+  },
+  "environment": {
+    "type": "entorno",
+    "description": "el entorno que rodea a la persona (fondo, decorado, objetos)",
+    "style": "también dibujado a lápiz"
+  },
+  "constraints": [
+    "La ilustración debe parecer un dibujo a lápiz.",
+    "La persona debe representarse como un boceto, no como una figura realista."
+  ],
+  "output": {
+    "type": "imagen",
+    "format": "ilustración"
+  }
+}
