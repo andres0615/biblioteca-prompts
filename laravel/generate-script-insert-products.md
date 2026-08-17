@@ -1,7 +1,5 @@
 # Generar script para insertar records en la tabla productos
 
-# Completar controlador para third party
-
 ## 1. Cargar skill
 
 - Carga la skill `read-files-constraints `
