@@ -1,0 +1,1 @@
+En esta imagen, haras que el corte en la parte del fade, hasta donde empieza la patilla, el cabello se vea mas tupido, es decir que no se vea tan blanco (que no se vea el cuero cabelludo)

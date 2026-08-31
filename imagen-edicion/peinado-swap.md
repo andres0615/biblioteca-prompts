@@ -1,0 +1,1 @@
+edita la primera imagen (la que tiene la gorra señalada con color rojo) para que tenga el peinado del sujeto de la segunda imagen, solo ajusta el peinado del cabello
